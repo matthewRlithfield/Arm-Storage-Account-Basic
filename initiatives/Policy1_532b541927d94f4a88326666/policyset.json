@@ -1,0 +1,38 @@
+{
+ "properties": {
+  "displayName": "Policy1",
+  "policyType": "Custom",
+  "metadata": {
+   "category": "Security",
+   "version": "1.0",
+   "createdBy": "c6a56d18-4afe-4685-af50-81e0c659eef0",
+   "createdOn": "2021-05-21T08:46:41.4697955Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "parameters": {},
+  "policyDefinitions": [
+   {
+    "policyDefinitionReferenceId": "Audit virtual machines without disaster recovery configured_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/0015ea4d-51ff-4ce3-8d8c-f3f8f0179a56",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Azure Backup should be enabled for Virtual Machines_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/013e242c-8828-4970-87b3-ab247555486d",
+    "parameters": {},
+    "groupNames": []
+   }
+  ],
+  "policyDefinitionGroups": [
+   {
+    "name": "Backup and DR",
+    "description": "Audit backup and DR"
+   }
+  ]
+ },
+ "id": "/subscriptions/84fe564b-0495-4b0a-9448-ec81cdd72058/providers/Microsoft.Authorization/policySetDefinitions/532b541927d94f4a88326666",
+ "type": "Microsoft.Authorization/policySetDefinitions",
+ "name": "532b541927d94f4a88326666"
+}
